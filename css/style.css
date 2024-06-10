@@ -29,6 +29,7 @@ body{
 
 .main-content{
     width: calc(100vw - 75px);
+    overflow: scroll;
 }
 
 /*HEADER SECTION RULES*/
