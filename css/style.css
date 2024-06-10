@@ -25,6 +25,14 @@ body{
     background-color: black;
 }
 
+.small-navbar{
+    padding: 5px;
+}
+
+.small-navbar img{
+    width: 50%;
+}
+
 /*MAIN CONTENT SECTION RULES*/
 
 .main-content{
@@ -130,6 +138,10 @@ header{
 
 .mar-bot-10{
     margin-bottom: 10px;
+}
+
+.opacity-75{
+    opacity: 0.75;
 }
 
 /*---ID RULES---*/
