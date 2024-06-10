@@ -93,6 +93,7 @@ header{
     display: inline-block;
     color: rgb(123, 125, 130);
     margin: 15px 10px;
+    vertical-align: middle;
 }
 
 .t-cent{
@@ -113,6 +114,12 @@ header{
     font-size: x-small;
     color: rgb(123, 125, 130);
     font-weight: bolder;
+}
+
+.green-line{
+    color: rgb(173, 255, 47);
+    width: 30px;
+    margin-left: 25%;
 }
 
 /*---UTILITY RULES---*/
