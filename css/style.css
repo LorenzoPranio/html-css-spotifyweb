@@ -20,6 +20,17 @@ body{
 
 /*SIDEBAR SECTION RULES*/
 
+.container-navbar{
+    height: 100%;
+}
+
+.row-navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
 .sidebar{
     width: 50px;
     background-color: black;
@@ -27,6 +38,7 @@ body{
 
 .small-navbar{
     padding: 5px;
+    height: 100%;
 }
 
 .small-navbar img{
@@ -55,6 +67,7 @@ header{
     text-align: right;
     background-color: rgba(0, 0, 0, 0.582);
 }
+
 
 /*MAIN SECTION RULES*/
 
@@ -146,6 +159,10 @@ header{
 
 .opacity-75{
     opacity: 0.75;
+}
+
+.vert-bot{
+    vertical-align: bottom;
 }
 
 /*---ID RULES---*/
