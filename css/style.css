@@ -21,14 +21,14 @@ body{
 /*SIDEBAR SECTION RULES*/
 
 .sidebar{
-    width: 75px;
+    width: 50px;
     background-color: black;
 }
 
 /*MAIN CONTENT SECTION RULES*/
 
 .main-content{
-    width: calc(100vw - 75px);
+    width: calc(100vw - 50px);
     overflow: scroll;
 }
 
@@ -36,15 +36,37 @@ body{
 
 header{
     position: fixed;
-    left: 75px;
+    left: 50px;
     top: 0;
     z-index: 1;
-    width: calc(100vw - 75px);
+    width: calc(100vw - 50px);
     text-align: right;
     background-color: rgba(0, 0, 0, 0.582);
 }
 
 /*MAIN SECTION RULES*/
+
+.container{
+    max-width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.col-50{
+    width: calc(50% - 10px);
+    padding-left: 10px;
+}
+
+.album-img{
+    width: 100%;
+}
 
 /*---BOTTOM SECTION RULES---*/
 
@@ -66,6 +88,37 @@ header{
     display: inline-block;
 }
 
+.main-text{
+    display: inline-block;
+    color: rgb(123, 125, 130);
+    margin: 15px 10px;
+}
+
+.t-cent{
+    text-align: center;
+}
+
+.title-main{
+    color: white;
+    margin: 20px 10px;
+}
+
+.subtitle-main{
+    color: white;
+    margin: 5px 0px;
+}
+
+.t-small-bolder{
+    font-size: x-small;
+    color: rgb(123, 125, 130);
+}
+
+/*---UTILITY RULES---*/
+
+.mar-top-75{
+    margin-top: 75px;
+}
+
 /*---ID RULES---*/
 
 /*---MEDIA QUERY RULES---*/
@@ -77,6 +130,8 @@ header{
 }
 
 /*Media Query MD 768px*/
+
+/*col-md-33*/
 
 @media screen and (min-width: 768px){
     
