@@ -62,6 +62,7 @@ header{
 .col-50{
     width: calc(50% - 10px);
     padding-left: 10px;
+    margin-bottom: 5px;
 }
 
 .album-img{
