@@ -15,7 +15,7 @@ body{
 .top-section{
     height: calc(100vh - 100px);
     display: flex;
-    background-color: aquamarine;
+    background-color: rgb(20, 25, 34);
 }
 
 /*SIDEBAR SECTION RULES*/
@@ -50,12 +50,21 @@ header{
 
 .bottom-section{
     height: 100px;
-    background-color: blueviolet;
+    background-color: rgb(40, 40, 40);
 }
 
 /*FOOTER SECTION RULES*/
 
-/*---UTILITY RULES---*/
+/*---TEXT RULES---*/
+
+.borded-text{
+    color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 10px 35px;
+    margin: 15px 5px;
+    display: inline-block;
+}
 
 /*---ID RULES---*/
 
