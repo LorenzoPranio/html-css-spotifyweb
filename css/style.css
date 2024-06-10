@@ -1,5 +1,79 @@
+/*---GENERAL RULES---*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: "DM Sans", sans-serif;
+}
+
+/*---TOP SECTION RULES---*/
+
+.top-section{
+    height: calc(100vh - 100px);
+    display: flex;
+    background-color: aquamarine;
+}
+
+/*SIDEBAR SECTION RULES*/
+
+.sidebar{
+    width: 75px;
+    background-color: black;
+}
+
+/*MAIN CONTENT SECTION RULES*/
+
+.main-content{
+    width: calc(100vw - 75px);
+}
+
+/*HEADER SECTION RULES*/
+
+header{
+    position: fixed;
+    left: 75px;
+    top: 0;
+    z-index: 1;
+    width: calc(100vw - 75px);
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+/*MAIN SECTION RULES*/
+
+/*---BOTTOM SECTION RULES---*/
+
+.bottom-section{
+    height: 100px;
+    background-color: blueviolet;
+}
+
+/*FOOTER SECTION RULES*/
+
+/*---UTILITY RULES---*/
+
+/*---ID RULES---*/
+
+/*---MEDIA QUERY RULES---*/
+
+/*Media Query SM 576px*/
+
+@media screen and (min-width: 576px){
+    
+}
+
+/*Media Query MD 768px*/
+
+@media screen and (min-width: 768px){
+    
+}
+
+/*Media Query LG 992x*/
+
+@media screen and (min-width: 992px){
+    
 }
