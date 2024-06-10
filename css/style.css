@@ -47,6 +47,8 @@ body{
 
 .navbar{
     display: none;
+    width: 100%;
+    height: 100%;
 }
 
 .circle-gray{
@@ -176,8 +178,25 @@ header{
 
 /*Media Query SM 576px*/
 
+/*Navbar*/
+
 @media screen and (min-width: 576px){
-    
+    .sidebar{
+        width: 200px;
+    }
+    .small-navbar{
+        display: none;
+    }
+    .navbar{
+        display: contents;
+    }
+    .main-content{
+        width: calc(100vw - 200px);
+    }
+    header{
+       width: calc(100vw - 200px);
+       left: 200px;
+    }
 }
 
 /*Media Query MD 768px*/
