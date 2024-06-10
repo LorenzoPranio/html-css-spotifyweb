@@ -112,6 +112,7 @@ header{
 .t-small-bolder{
     font-size: x-small;
     color: rgb(123, 125, 130);
+    font-weight: bolder;
 }
 
 /*---UTILITY RULES---*/
