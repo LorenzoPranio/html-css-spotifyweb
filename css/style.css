@@ -204,11 +204,15 @@ header{
 /*col-md-33*/
 
 @media screen and (min-width: 768px){
-    
+    .col-md-44{
+        width: calc(100% / 4 - 10px);
+    }
 }
 
 /*Media Query LG 992x*/
 
 @media screen and (min-width: 992px){
-    
+    .col-lg-33{
+        width: calc(100% / 6 - 10px)
+    }
 }
