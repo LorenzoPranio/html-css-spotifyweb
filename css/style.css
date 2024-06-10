@@ -33,6 +33,10 @@ body{
     width: 50%;
 }
 
+.navbar{
+    display: none;
+}
+
 /*MAIN CONTENT SECTION RULES*/
 
 .main-content{
