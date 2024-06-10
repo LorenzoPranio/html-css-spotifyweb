@@ -49,6 +49,11 @@ body{
     display: none;
 }
 
+.circle-gray{
+    background-color:rgb(123, 125, 130);
+    border-radius: 50%;
+}
+
 /*MAIN CONTENT SECTION RULES*/
 
 .main-content{
