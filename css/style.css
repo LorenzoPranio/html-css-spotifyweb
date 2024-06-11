@@ -51,6 +51,24 @@ body{
     height: 100%;
 }
 
+.nav{
+    padding: 10px 15px;
+}
+
+.nav-sec{
+    padding: 5px 15px;
+    vertical-align: middle;
+}
+
+.logo{
+    width: 100px;
+}
+
+.image-nav{
+    width: 25px;
+    vertical-align: middle;
+}
+
 .circle-gray{
     background-color:rgb(123, 125, 130);
     border-radius: 50%;
@@ -114,11 +132,13 @@ header{
 .col-left{
     width: 25%;
     height: 100%;
+    padding: 15px 5px;
 }
 
 .col-left img{
-    width: 50%;
+    width: 45%;
     float: left;
+    margin: 0px 5px;
 }
 
 .like{
@@ -144,6 +164,12 @@ header{
 
 .button-list li{
     margin: 10px 15px;
+    color: white;
+    font-size: large;
+}
+
+.fa-circle-play{
+    font-size: xx-large;
 }
 
 .playbar-controls{
@@ -153,26 +179,49 @@ header{
 
 .start{
     width: 10%;
-    background-color: cadetblue;
 }
 
 .end{
     width: 10%;
-    background-color: cadetblue;
 }
 
 .playbar{
     width: 80%;
-    background-color: chartreuse;
+    height: 5px;
+    border-radius: 5px;
+    background-color: rgb(71, 71, 71);
+}
+
+.played{
+    background-color: darkgray;
+    border-radius: 5px;
+    height: 5px;
+    width: 50px;
 }
 
 .col-right{
     width: 25%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 50px 5px;
+}
+
+.col-right i{
+    font-size: small;
+    color: white;
+}
+
+.playbar-sm{
+    width: 50%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: rgb(71, 71, 71);
+}
+
+.played-sm{
+    background-color: darkgray;
+    border-radius: 5px;
+    height: 5px;
+    width: 30px;
 }
 
 /*---TEXT RULES---*/
@@ -219,6 +268,11 @@ header{
     margin-left: 25%;
 }
 
+.title-nav{
+    color: white;
+    margin: 20px 5px 5px 15px;
+}
+
 /*---UTILITY RULES---*/
 
 .mar-top-75{
@@ -237,7 +291,19 @@ header{
     vertical-align: bottom;
 }
 
+.vert-al{
+    vertical-align: middle;
+}
+
+.disp-inbl{
+    display: inline-block;
+}
+
 /*---ID RULES---*/
+
+#t-white{
+    color: white;
+}
 
 /*---MEDIA QUERY RULES---*/
 

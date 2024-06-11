@@ -35,6 +35,15 @@
             </div>  
             <!--Navbar da SM a LG-->
             <div class="navbar">
+                <div class="nav"><img class="logo" src="./img/logo.svg" alt="Spotify Logo"></div>
+                <div class="nav-sec"><img class="image-nav" src="./img/home.svg" alt="Home">
+                    <h6 class="t-small-bolder disp-inbl" id="t-white">Home</h6></div>
+                <div class="nav-sec"><img class="image-nav" src="./img/search.svg" alt="Search">
+                    <h6 class="t-small-bolder disp-inbl">Cerca</h6></div>
+                <div class="nav-sec"><img class="image-nav" src="./img/libreria.svg" alt="Library">
+                    <h6 class="t-small-bolder disp-inbl">La tua libreria</h6></div>
+                <div class="title-nav"><h5>PLAYLIST</h5></div>
+                <div class="square"></div>
             </div>
         </div>
         <div class="main-content">
@@ -159,7 +168,7 @@
             <!--3 container 1 row-->
             <div class="col-left">
                 <img src="./img/sinister.jpeg" alt="Currency Sinister">
-                <h6>Sinister</h6>
+                <h6 id="t-white">Sinister</h6>
                 <p class="t-small-bolder">Brano</p>
                 <p class="t-small-bolder">Nome</p>
                 <span class="like">
@@ -170,31 +179,24 @@
             <div class="col-center">
                 <div class="buttons">
                     <ul class="button-list">
-                        <li><i class="fa-solid fa-shuffle"></i></li>
-                        <li><i class="fa-solid fa-backward-step"></i></li>
-                        <li><i class="fa-regular fa-circle-play"></i></li>
-                        <li><i class="fa-solid fa-forward-step"></i></li>
-                        <li><i class="fa-solid fa-arrow-rotate-right"></i></li>
+                        <li><i class="fa-solid fa-shuffle vert-al"></i></li>
+                        <li><i class="fa-solid fa-backward-step vert-al"></i></li>
+                        <li><i class="fa-regular fa-circle-play vert-al"></i></li>
+                        <li><i class="fa-solid fa-forward-step vert-al"></i></li>
+                        <li><i class="fa-solid fa-arrow-rotate-right vert-al"></i></li>
                     </ul>
                 </div>
                 <div class="playbar-controls">
-                    <div class="start">10</div>
-                    <div class="playbar"></div>
-                    <div class="end">20</div>
+                    <div class="start"><p class="t-small-bolder vert-al" id="t-white">0:25</p></div>
+                    <div class="playbar"><div class="played vert-al"></div></div>
+                    <div class="end"><p class="t-small-bolder vert-al" id="t-white">4:35</p></div>
                 </div>
             </div>
             <div class="col-right">
-                <ul class="button-list">
-                    <li>
-                        <i class="fa-solid fa-list"></i>
-                        <i class="fa-solid fa-display"></i>
-                        <i class="fa-solid fa-volume-high"></i>
-                    </li>
-                </ul>
-                <div class="playbar-controls">
-                    <div class="start"></div>
-                    <div class="playbar"></div>
-                    <div class="end"></div>
+                    <i class="fa-solid fa-list vert-al"></i>
+                    <i class="fa-solid fa-display vert-al"></i>
+                    <i class="fa-solid fa-volume-high vert-al"></i>
+                    <div class="playbar-sm disp-inbl vert-al"><div class="played-sm"></div></div>
                 </div>
             </div>
         </div>
