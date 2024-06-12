@@ -74,6 +74,24 @@ body{
     border-radius: 50%;
 }
 
+.square{
+    height: 30px;
+    width: 30px;
+    background-color:rgb(123, 125, 130);
+    margin: 5px 15px ;
+    padding: 5px 8px;
+    vertical-align: middle;
+}
+
+.nav-playlist{
+    overflow-y: hidden;
+}
+
+.playlist-list{
+    height: 82%;
+    overflow-y: scroll;
+}
+
 /*MAIN CONTENT SECTION RULES*/
 
 .main-content{
