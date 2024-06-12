@@ -408,9 +408,10 @@ h6:hover{
     cursor: pointer;
 }
 
-i:hover{
+.bottom-section i:hover{
     transform : scale(1.1);
     cursor: pointer;
+    color: white;
 }
 
 .played:hover{
