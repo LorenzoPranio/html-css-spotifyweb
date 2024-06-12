@@ -175,6 +175,7 @@ header{
     width: 100%;
 }
 
+
 /*---BOTTOM SECTION RULES---*/
 
 .bottom-section{
@@ -397,10 +398,6 @@ h6:hover{
 .main-content img:hover{
     cursor: pointer;
     opacity: 0.3;
-}
-
-.d-none{
-    display: none;
 }
 
 .borded-text:hover{
