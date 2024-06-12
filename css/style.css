@@ -94,11 +94,12 @@ body{
 
 .nav-playlist{
     overflow-y: hidden;
+    height: 80%;
 }
 
 .playlist-list{
-    height: 82%;
-    overflow-y: scroll;
+    height: 70%;
+    overflow-y: auto;
 }
 
 .navbar-bot{
@@ -109,7 +110,6 @@ body{
 .navbar-bot img{
     width: 15px;
 }
-
 
 /*MAIN CONTENT SECTION RULES*/
 
@@ -373,13 +373,13 @@ header{
         display: none;
     }
     .navbar{
-        display: contents;
+        display: block;
     }
     .navbar-top{
-        display: contents;
+        display: block;
     }
     .navbar-bot{
-        display: contents;
+        display: block;
     }
     .main-content{
         width: calc(100vw - 200px);
