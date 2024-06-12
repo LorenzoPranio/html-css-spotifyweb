@@ -382,6 +382,12 @@ header{
     color: white;
 }
 
+/*HOVERS RULES*/
+
+h6:hover{
+    color: white;
+}
+
 /*---MEDIA QUERY RULES---*/
 
 /*Media Query SM 576px*/
