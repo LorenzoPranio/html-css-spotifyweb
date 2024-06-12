@@ -34,42 +34,52 @@
                 </div>
             </div>  
             <!--Navbar da SM a LG-->
-            <div class="navbar">
-                <div class="nav">
-                    <img class="logo" src="./img/logo.svg" alt="Spotify Logo">
+            <div class="navbar-top">
+                <div class="navbar">
+                    <div class="nav">
+                        <img class="logo" src="./img/logo.svg" alt="Spotify Logo">
+                    </div>
+                    <div class="nav-sec">
+                        <img class="image-nav" src="./img/home.svg" alt="Home">
+                        <h6 class="t-small-bolder disp-inbl" id="t-white">Home</h6>
+                    </div>
+                    <div class="nav-sec">
+                        <img class="image-nav" src="./img/search.svg" alt="Search">
+                        <h6 class="t-small-bolder disp-inbl">Cerca</h6>
+                    </div>
+                    <div class="nav-sec">
+                        <img class="image-nav" src="./img/libreria.svg" alt="Library">
+                        <h6 class="t-small-bolder disp-inbl">La tua libreria</h6>
+                    </div>
+                    <div class="top-nav">
+                    <div class="title-nav">
+                        <h5>PLAYLIST</h5>
+                    </div>
+                    <i class="fa-solid fa-plus square"></i>
+                    <h6 class="main-text disp-inbl">Crea Playlist</h6>
+                    </div>
+                    <div class="nav-playlist">
+                        <ul class="playlist-list">
+                            <li><h6 class="main-text">Nome Playlist</h6></li>
+                            <li><h6 class="main-text">Nome Playlist</h6></li>
+                            <li><h6 class="main-text">Nome Playlist</h6></li>
+                            <li><h6 class="main-text">Nome Playlist</h6></li>
+                            <li><h6 class="main-text">Nome Playlist</h6></li>
+                            <li><h6 class="main-text">Nome Playlist</h6></li>
+                        </ul>
+                    </div>
+                </div>       
+            </div>
+            <div class="navbar-bot">
+                <!--Installa app e Wendigo con height fissa 100px-->
+                <div class="navbar">
+                    <img class="vert-al" src="./img/download.svg" alt="Download">
+                    <h6 class="main-text disp-inbl">Installa App</h6>
+                    <hr>
+                    <img class="circle-gray vert-al" src="./img/profile.svg" alt="Profile">
+                    <h5 class="title-main disp-inbl">Wendigo</h5>
                 </div>
-                <div class="nav-sec">
-                    <img class="image-nav" src="./img/home.svg" alt="Home">
-                    <h6 class="t-small-bolder disp-inbl" id="t-white">Home</h6>
-                </div>
-                <div class="nav-sec">
-                    <img class="image-nav" src="./img/search.svg" alt="Search">
-                    <h6 class="t-small-bolder disp-inbl">Cerca</h6>
-                </div>
-                <div class="nav-sec">
-                    <img class="image-nav" src="./img/libreria.svg" alt="Library">
-                    <h6 class="t-small-bolder disp-inbl">La tua libreria</h6>
-                </div>
-                <div class="top-nav">
-                   <div class="title-nav">
-                      <h5>PLAYLIST</h5>
-                   </div>
-                   <div class="square">
-                      <i class="fa-solid fa-plus disp-inbl"></i>
-                   </div>
-                   <h6 class="main-text disp-inbl">Crea Playlist</h6>
-                </div>
-                <div class="nav-playlist">
-                    <ul class="playlist-list">
-                        <li><h6 class="main-text">Nome Playlist</h6></li>
-                        <li><h6 class="main-text">Nome Playlist</h6></li>
-                        <li><h6 class="main-text">Nome Playlist</h6></li>
-                        <li><h6 class="main-text">Nome Playlist</h6></li>
-                        <li><h6 class="main-text">Nome Playlist</h6></li>
-                        <li><h6 class="main-text">Nome Playlist</h6></li>
-                    </ul>
-                </div>
-            </div>       
+            </div> 
         </div>
         <div class="main-content">
             <header>
@@ -192,14 +202,18 @@
         <div class="bottom-section">
             <!--3 container 1 row-->
             <div class="col-left">
-                <img src="./img/sinister.jpeg" alt="Currency Sinister">
-                <h6 id="t-white">Sinister</h6>
-                <p class="t-small-bolder">Brano</p>
-                <p class="t-small-bolder">Nome</p>
-                <span class="like">
+                <div class="d-flex">
+                    <img src="./img/sinister.jpeg" alt="Currency Sinister">
+                    <div>
+                       <h6 id="t-white">Sinister</h6>
+                       <p class="t-small-bolder">Brano Nome</p>    
+                    </div>
+                    
+                </div>
+                <div class="like d-flex">
                     <i class="fa-regular fa-heart"></i>
                     <i class="fa-regular fa-folder"></i>
-                </span>
+                </div>
             </div>
             <div class="col-center">
                 <div class="buttons">
@@ -213,20 +227,22 @@
                 </div>
                 <div class="playbar-controls">
                     <div class="start">
-                        <p class="t-small-bolder vert-al" id="t-white">0:25</p>
+                        <p class="t-small-bolder" id="t-white">0:25</p>
                     </div>
                     <div class="playbar">
-                        <div class="played vert-al"></div>
+                        <div class="played"></div>
                     </div>
                     <div class="end">
-                        <p class="t-small-bolder vert-al" id="t-white">4:35</p>
+                        <p class="t-small-bolder" id="t-white">4:35</p>
                     </div>
                 </div>
             </div>
             <div class="col-right">
-                <i class="fa-solid fa-list vert-al"></i>
-                <i class="fa-solid fa-display vert-al"></i>
-                <i class="fa-solid fa-volume-high vert-al"></i>
+                <div class="mar-dx-10">
+                    <i class="fa-solid fa-list vert-al"></i>
+                    <i class="fa-solid fa-display vert-al"></i>
+                    <i class="fa-solid fa-volume-high vert-al"></i>
+                </div>
                 <div class="playbar-sm disp-inbl vert-al">
                     <div class="played-sm"></div>
                 </div>
